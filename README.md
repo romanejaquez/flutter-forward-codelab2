@@ -1,36 +1,15 @@
-# Flutter Web Codelab (pt. 1) - Introduction to Flutter Web
+# Flutter Web Codelab (pt. 2) - Firebase Integration: Cloud Firestore
 
 ## Overview
 
 Welcome to the exciting world of Flutter Web!
 
-**Flutter** is an open-source UI Toolkit supported by Google for building beautiful, natively-compiled user interfaces in a multi-platform fashion, using **Dart**, another open-source programming language supported by Google, as its language.
+In this workshop, you've been building your own personal portfolio Flutter web app, with hard-coded data. In a real-life scenario, you might want to pull the data that feeds your portfolio web app from another source (an external source like a backend service, a database) and that's where Firebase comes in!
 
-**Flutter for Web** provides the lowest barrier to entry when it comes to becoming a profilic Flutter developer. Most of the concepts learned in Flutter can be applied in a multi-platform scenario, and web is not an exception, so join us in building compelling web apps by going through the codelabs in this series.
+### What is Firebase? 
 
-### NOTE: THIS IS NOT A BEGINNER CODELAB
+[Firebase](https://firebase.google.com/) is an app development platform that helps you build and grow apps and games users love. Backed by the Google Cloud and trusted by millions of businesses around the world, and it contains a suite of products for building robust mobile, web and desktop apps that can scale to billions of users.
 
-(If you're looking for more beginner content, please visit some of my other codelabs [here](https://romanjustcodes.web.app/#/workshops)). If you're up for the challenge, then proceed.
+In this session we'll be using [Firebase Cloud Firestore](https://firebase.google.com/products/firestore), a NoSQL document database that lets you easily store, sync, and query data for your mobile and web apps - at global scale. One of its best features is its serverless nature, in which you can stand up a Firebase backend without provisioning your own servers. You can access Cloud Firestore with traditional client libraries such as Node, Python, Go and Java.
 
-This is a codelab series focused on Flutter Web, in which you'll learn the following:
-
-- Building Layouts in Flutter
-- Adding Custom Fonts
-- Page Navigation
-- Nested Navigation
-- Responsive Design
-- State Management using Provider
-- Persisting state in Local Storage
-- Theming your Web Apps
-
-The following screenshot depicts what we'll be building throughout this series:
-
-- A Flutter Web App for your own Personal Portfolio
-- Shows a brief profile information
-- Contains pages for the major social media platforms and professional content portals (Twitter, LinkedIn, Github) and for showcasing your web presence
-- Contains a light and a dark theme
-- Contains a custom side navigation rail (on tablet and desktop) and an expandable menu for mobile
-- Adjusts to the size of the screen in which it renders using responsive design
-- Stores the last selected option
-
-![App](https://firebasestorage.googleapis.com/v0/b/romanjustcodes.appspot.com/o/flutterweb_codelabs%2Fimg_initial.gif?alt=media&token=f424bc95-3cb5-4650-8e7d-7f83f0f8a0f4)
+We will be working on the **Free-Tier** of Firebase (Spark - No cost $0/month) and you can see the full plan details and the decent quotas you get under this tier, which is enough to get started, by clicking on [this link](https://firebase.google.com/pricing?authuser=9&hl=en).
